@@ -1,0 +1,1135 @@
+.card {
+    width: 300px;
+    height: 350px;
+    position: relative;
+    background-image: linear-gradient(230deg, rgba(93, 93, 93, 0.03) 0%, rgba(93, 93, 93, 0.03) 50%, rgba(78, 78, 78, 0.03) 50%, rgba(78, 78, 78, 0.03) 100%), linear-gradient(107deg, rgba(55, 55, 55, 0.01) 0%, rgba(55, 55, 55, 0.01) 50%, rgba(170, 170, 170, 0.01) 50%, rgba(170, 170, 170, 0.01) 100%), linear-gradient(278deg, rgba(16, 16, 16, 0.03) 0%, rgba(16, 16, 16, 0.03) 50%, rgba(24, 24, 24, 0.03) 50%, rgba(24, 24, 24, 0.03) 100%), linear-gradient(205deg, rgba(116, 116, 116, 0.03) 0%, rgba(116, 116, 116, 0.03) 50%, rgba(0, 0, 0, 0.03) 50%, rgba(0, 0, 0, 0.03) 100%), linear-gradient(150deg, rgba(5, 5, 5, 0.03) 0%, rgba(5, 5, 5, 0.03) 50%, rgba(80, 80, 80, 0.03) 50%, rgba(80, 80, 80, 0.03) 100%), linear-gradient(198deg, rgba(231, 231, 231, 0.03) 0%, rgba(231, 231, 231, 0.03) 50%, rgba(26, 26, 26, 0.03) 50%, rgba(26, 26, 26, 0.03) 100%), linear-gradient(278deg, rgba(89, 89, 89, 0.03) 0%, rgba(89, 89, 89, 0.03) 50%, rgba(26, 26, 26, 0.03) 50%, rgba(26, 26, 26, 0.03) 100%), linear-gradient(217deg, rgba(28, 28, 28, 0.03) 0%, rgba(28, 28, 28, 0.03) 50%, rgba(202, 202, 202, 0.03) 50%, rgba(202, 202, 202, 0.03) 100%), linear-gradient(129deg, rgba(23, 23, 23, 0.03) 0%, rgba(23, 23, 23, 0.03) 50%, rgba(244, 244, 244, 0.03) 50%, rgba(244, 244, 244, 0.03) 100%), linear-gradient(135deg, rgb(1, 132, 255), rgb(198, 5, 91));
+    display: grid;
+    place-content: center;
+    border-radius: 20px;
+    -webkit-transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  
+.dot {
+    position: absolute;
+    aspect-ratio: 1;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-right: 2px solid white;
+    -webkit-transition: left 1s ease-in-out, top 1s ease-in-out, transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+    transition: left 1s ease-in-out, top 1s ease-in-out, -webkit-transform 0.2s ease-in-out;
+    transition: left 1s ease-in-out, top 1s ease-in-out, transform 0.2s ease-in-out;
+    transition: left 1s ease-in-out, top 1s ease-in-out, transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+    -moz-transition: left 1s ease-in-out, top 1s ease-in-out, transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+    -ms-transition: left 1s ease-in-out, top 1s ease-in-out, transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+    -o-transition: left 1s ease-in-out, top 1s ease-in-out, transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+
+ 
+
+  .size-3 {
+    background: linear-gradient(45deg, rgb(27, 124, 252) 0%, rgba(255, 255, 255, 0.466) 100%);
+  }
+
+  .size-4 {
+    background: linear-gradient(45deg, rgb(27, 228, 27) 0%, rgba(255, 255, 255, 0.466) 100%);
+  }
+
+  .size-5 {
+    background: linear-gradient(45deg, rgb(255, 133, 19) 0%, rgba(255, 255, 255, 0.466) 100%);
+  }
+
+  
+
+  .dot:hover {
+    -webkit-transform: scale(1.8);
+        -ms-transform: scale(1.8);
+            transform: scale(1.8);
+  }
+
+ .dot1 {
+    
+    left: 250px;
+    top: 5px;
+  }
+  
+  .dot2 {
+    left: 190px;
+    top: 75px;
+  }
+  
+  .dot3 {
+    left: 240px;
+    top: 95px;
+  }
+  
+  .dot4 {
+    left: 240px;
+    top: 170px;
+  }
+  
+  .dot5 {
+    left: 250px;
+    top: 185px;
+  }
+  
+  .dot6 {
+    left: 110px;
+    top: 230px;
+  }
+  
+  .dot7 {
+    left: 125px;
+    top: 280px;
+  }
+  
+  .dot8 {
+    left: 100px;
+    top: 320px;
+  }
+  
+  .dot9 {
+    left: 225px;
+    top: 250px;
+  }
+  
+  .dot10 {
+    left: 230px;
+    top: 145px;
+  }
+  
+  .dot11 {
+    left: 180px;
+    top: 260px;
+  }
+  
+  .dot12 {
+    left: 160px;
+    top: 230px;
+  }
+  
+  .dot13 {
+    left: 170px;
+    top: 255px;
+  }
+  
+  .dot14 {
+    left: 220px;
+    top: 20px;
+  }
+  
+  .dot15 {
+    left: 185px;
+    top: 5px;
+  }
+  
+  .dot16 {
+    left: 180px;
+    top: 220px;
+  }
+  
+  .dot17 {
+    left: 240px;
+    top: 225px;
+  }
+  
+  .dot18 {
+    left: 220px;
+    top: 280px;
+  }
+  
+  .dot19 {
+    left: 200px;
+    top: 20px;
+  }
+  
+  .dot20 {
+    left: 210px;
+    top: 260px;
+  }
+  
+  .dot21 {
+    left: 250px;
+    top: 30px;
+  }
+  
+  .dot22 {
+    left: 280px;
+    top: 40px;
+  }
+  
+  .dot23 {
+    left: 220px;
+    top: 60px;
+  }
+  
+  .dot24 {
+    left:120px;
+    top: 10px;
+  }
+  
+  .dot25 {
+    left: 170px;
+    top: 200px;
+  }
+  
+  .dot26 {
+    left: 230px;
+    top: 215px;
+  }
+  
+  .dot27 {
+    left: 280px;
+    top: 10px;
+  }
+  
+  .dot28 {
+    left: 195px;
+    top: 130px;
+  }
+  
+  .dot29 {
+    left: 140px;
+    top: 45px;
+  }
+  
+  .dot30 {
+    left: 175px;
+    top: 290px;
+  }
+  
+  .dot31 {
+    left: 170px;
+    top: 140px;
+  }
+  
+  .dot32 {
+    left: 35px;
+    top: 70px;
+  }
+  
+  .dot33 {
+    left: 70px;
+    top: 20px;
+  }
+  
+  .dot34 {
+    left: 90px;
+    top: 10px;
+  }
+  
+  .dot34 {
+    left: 130px;
+    top: 30px;
+  }
+  
+  .dot36 {
+    left: 50px;
+    top: 40px;
+  }
+  
+  .dot37 {
+    left: 190px;
+    top: 170px;
+  }
+  
+  .dot38 {
+    left: 15px;
+    top: 20px;
+  }
+  
+  .dot39 {
+    left: 175px;
+    top: 40px;
+  }
+  
+  .dot40 {
+    left: 20px;
+    top: 40px;
+  }
+  
+  .dot41 {
+    left: 0px;
+    top: 60px;
+  }
+  
+  .dot42 {
+    left: 35px;
+    top: 170px;
+  }
+  
+  .dot43 {
+    left: 120px;
+    top: 180px;
+  }
+  
+  .dot44 {
+    left: 60px;
+    top: 170px;
+  }
+  
+  .dot45 {
+    left: 100px;
+    top: 135px;
+  }
+  
+  .dot46 {
+    left: 110px;
+    top: 100px;
+  }
+  
+  .dot47 {
+    left: 40px;
+    top: 175px;
+  }
+  
+  .dot48 {
+    left: 20px;
+    top: 160px;
+  }
+  
+  .dot49 {
+    left: 100px;
+    top: 170px;
+  }
+  
+  .dot50 {
+    left: 10px;
+    top: 160px;
+  }
+  
+  .dot51 {
+    left: 40px;
+    top: 140px;
+  }
+  
+  .dot52 {
+    left: 45px;
+    top: 190px;
+  }
+  
+  .dot53 {
+    left: 20px;
+    top: 180px;
+  }
+  
+  .dot54 {
+    left: 100px;
+    top: 120px;
+  }
+  
+  .dot55 {
+    left: 80px;
+    top: 145px;
+  }
+  
+  .dot56 {
+    left: 5px;
+    top: 140px;
+  }
+  
+  .dot57 {
+    left: 60px;
+    top: 160px;
+  }
+  
+  .dot58 {
+    left: 50px;
+    top: 170px;
+  }
+  
+  .dot59 {
+    left: 60px;
+    top: 130px;
+  }
+  
+  .dot60 {
+    left: 110px;
+    top: 70px;
+  }
+  
+  .dot61 {
+    left: 90px;
+    top: 110px;
+  }
+  
+  .dot62 {
+    left: 90px;
+    top: 140px;
+  }
+  
+  .dot63 {
+    left: 100px;
+    top: 55px;
+  }
+  
+  .dot64 {
+    left: 85px;
+    top: 80px;
+  }
+  
+  .dot65 {
+    left: 30px;
+    top: 130px;
+  }
+  
+  .dot66 {
+    left: 70px;
+    top: 120px;
+  }
+  
+  .dot67 {
+    left: 30px;
+    top: 115px;
+  }
+  
+  .dot68 {
+    left: 130px;
+    top: 105px;
+  }
+  
+  .dot69 {
+    left: 190px;
+    top: 110px;
+  }
+  
+  .dot70 {
+    left: 140px;
+    top: 120px;
+  }
+  
+  .dot71 {
+    left: 40px;
+    top: 195px;
+  }
+  
+  .dot72 {
+    left: 210px;
+    top: 130px;
+  }
+  
+  .dot73 {
+    left: 5px;
+    top: 205px;
+  }
+  
+  .dot74 {
+    left: 15px;
+    top: 290px;
+  }
+  
+  .dot75 {
+    left: 210px;
+    top: 90px;
+  }
+  
+  .dot76 {
+    left: 150px;
+    top: 290px;
+  }
+  
+  .dot77 {
+    left: 80px;
+    top: 245px;
+  }
+  
+  .dot78 {
+    left: 280px;
+    top: 299px;
+  }
+  
+  .dot79 {
+    left: 165px;
+    top: 10px;
+  }
+  
+  .dot80 {
+    left: 230px;
+    top: 0px;
+  }
+  
+  .dot81 {
+    left: 145px;
+    top: 190px;
+  }
+  
+  .dot82 {
+    left: 260px;
+    top: 235px;
+  }
+  
+  .dot83 {
+    left: 150px;
+    top: 160px;
+  }
+  .dot84 {
+    left: 50px;
+    top: 240px;
+  }
+  .dot85 {
+    left: 280px;
+    top: 280px;
+  }
+  .dot86 {
+    left: 260px;
+    top: 190px;
+  }
+  .dot87 {
+    left: 270px;
+    top: 70px;
+  }
+  .dot88 {
+    left: 250px;
+    top: 270px;
+  }
+  .dot89 {
+    left: 50px;
+    top: 330px;
+  }
+  .dot90 {
+    left: 50px;
+    top: 270px;
+  }
+  .dot91 {
+    left: 260px;
+    top: 170px;
+  }
+  .dot92 {
+    left: 250px;
+    top: 70px;
+  }
+  
+  .card:hover:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .card:hover:hover .text {
+    opacity: 1;
+  }
+  .card:hover .dot1 {
+    left: 58px;
+    top: 9%; 
+  }
+  .card:hover:hover .dot2 {
+    left: 60px;
+    top: 55px; 
+  }
+  .card:hover .dot3 {
+    left: 72px;
+    top: 55px;
+  }
+  .card:hover .dot4 {
+    left: 80px;
+    top: 34px;
+  }
+  .card:hover .dot5 {
+    left: 84px;
+    top: 48px;
+  }
+  .card:hover .dot6 {
+    left: 81px;
+    top: 55px;
+  }
+  .card:hover .dot7 {
+    left: 79px;
+    top: 67px;
+  }
+  .card:hover .dot8 {
+    left: 71px;
+    top: 80px;
+  }
+  .card:hover .dot9 {
+    left: 57px;
+    top: 69px;
+  }
+  .card:hover .dot10 {
+    left: 57px;
+    top: 86px;
+  }
+  .card:hover .dot11 {
+    left: 80px;
+    top: 102px;
+  }
+  .card:hover .dot12 {
+    left: 57px;
+    top: 98px;
+  }
+  .card:hover .dot13 {
+    left: 70px;
+    top: 102px;
+  }
+  .card:hover .dot14 {
+    left: 90px;
+    top: 103px;
+  }
+  .card:hover .dot15 {
+    left: 98px;
+    top:103px;
+  }
+  .card:hover .dot16 {
+    left: 95px;
+    top: 118px;
+  }
+  .card:hover .dot17 {
+    left: 95px;
+    top: 140px;
+  }
+  .card:hover .dot18 {
+    left: 112px;
+    top: 103px;
+  }
+  .card:hover .dot19 {
+    left: 122px;
+    top: 104px;
+  }
+  .card:hover .dot20 {
+    left: 118px;
+    top: 115px;
+  }
+  .card:hover .dot21 {
+    left: 117px;
+    top: 128px;
+  }
+  .card:hover .dot22 {
+    left: 111px;
+    top: 140px;
+  }
+  .card:hover .dot23 {
+    left: 109px;
+    top: 164px;
+  }
+  .card:hover .dot24 {
+    left: 93px;
+    top: 155px;
+  }
+  .card:hover .dot25 {
+    left: 82px;
+    top: 170px;
+  }
+  .card:hover .dot26 {
+    left: 93px;
+    top: 172px;
+  }
+  .card:hover .dot27 {
+    left: 102px;
+    top: 174px;
+  }
+  .card:hover .dot28 {
+    left: 119px;
+    top: 157px;
+  }
+  .card:hover .dot29 {
+    left: 142px;
+    top: 115px;
+  }
+  .card:hover .dot30 {
+    left: 155px;
+    top: 115px;
+  }
+  .card:hover .dot31 {
+    left: 166px;
+    top: 115px;
+  }
+  .card:hover .dot32 {
+    left: 140px;
+    top: 130px;
+  }
+  .card:hover .dot33 {
+    left: 157px;
+    top: 129px;
+  }
+  .card:hover .dot34 {
+    left: 139px;
+    top: 145px;
+  }
+  .card:hover .dot35 {
+    left: 152px;
+    top: 155px;
+  }
+  .card:hover .dot36 {
+    left: 164px;
+    top: 153px;
+  }
+  .card:hover .dot37 {
+    left: 138px;
+    top: 157px;
+  }
+  .card:hover .dot38 {
+    left: 160px;
+    top: 168px;
+  }
+  .card:hover .dot39 {
+    left: 147px;
+    top: 170px;
+  }
+  .card:hover .dot40 {
+    left: 136px;
+    top: 173px;
+  }
+  .card:hover .dot41 {
+    left: 163px;
+    top: 186px;
+  }
+  .card:hover .dot42 {
+    left: 150px;
+    top: 187px;
+  }
+  .card:hover .dot43 {
+    left: 135px;
+    top: 186px;
+  }
+  .card:hover .dot44 {
+    left: 127px;
+    top: 192px;
+  }
+  .card:hover .dot45 {
+    left: 110px;
+    top: 192px;
+  }
+  .card:hover .dot46 {
+    left: 100px;
+    top: 192px;
+  }
+  .card:hover .dot47 {
+    left: 87px;
+    top: 192px;
+  }
+  .card:hover .dot48 {
+    left: 86px;
+    top: 206px;
+  }
+  .card:hover .dot49 {
+    left: 99px;
+    top: 206px;
+  }
+  .card:hover .dot50 {
+    left: 114px;
+    top: 210px;
+  }
+  .card:hover .dot51 {
+    left: 110px;
+    top: 220px;
+  }
+  .card:hover .dot52 {
+    left: 85px;
+    top: 220px;
+  }
+  .card:hover .dot53 {
+    left: 113px;
+    top: 235px;
+  }
+  .card:hover .dot54 {
+    left: 105px;
+    top: 247px;
+  }
+  .card:hover .dot55 {
+    left: 96px;
+    top: 242px;
+  }
+  .card:hover .dot56 {
+    left: 83px;
+    top: 242px;
+  }
+  .card:hover .dot57 {
+    left: 94px;
+    top: 253px;
+  }
+  .card:hover .dot58 {
+    left: 84px;
+    top: 255px;
+  }
+  .card:hover .dot59 {
+    left: 145px;
+    top: 94px;
+  }
+  .card:hover .dot60 {
+    left: 158px;
+    top: 95px;
+  }
+  .card:hover .dot61 {
+    left: 172px;
+    top: 96px;
+  }
+  .card:hover .dot62 {
+    left: 145px;
+    top: 80px;
+  }
+  .card:hover .dot63 {
+    left: 160px;
+    top: 84px;
+  }
+  .card:hover .dot64 {
+    left: 147px;
+    top: 67px;
+  }
+  .card:hover .dot65 {
+    left: 170px;
+    top: 80px;
+  }
+  .card:hover .dot66 {
+    left: 164px;
+    top: 57px;
+  }
+  .card:hover .dot67 {
+    left: 147px;
+    top: 49px;
+  }
+  .card:hover .dot68 {
+    left: 149px;
+    top: 36px;
+  }
+  .card:hover .dot69 {
+    left: 175px;
+    top: 47px;
+  }
+  .card:hover .dot70 {
+    left: 163px;
+    top: 36px;
+  }
+  .card:hover .dot71 {
+    left: 165px;
+    top: 47px;
+  }
+  .card:hover .dot72 {
+    left: 174px;
+    top: 36px;
+  }
+  .card:hover .dot73 {
+    left: 185px;
+    top: 36px;
+  }
+  .card:hover .dot74 {
+    left: 183px;
+    top: 98px;
+  }
+  .card:hover .dot75 {
+    left: 192px;
+    top: 98px;
+  }
+  .card:hover .dot76 {
+    left: 205px;
+    top: 98px;
+  }
+  .card:hover .dot77 {
+    left: 219px;
+    top: 99px;
+  }
+  .card:hover .dot78 {
+    left: 214px;
+    top: 112px;
+  }
+  .card:hover .dot79 {
+    left: 192px;
+    top: 113px;
+  }
+  .card:hover .dot80 {
+    left: 204px;
+    top: 114px;
+  }
+  .card:hover .dot81 {
+    left: 191px;
+    top: 126px;
+  }
+  .card:hover .dot82 {
+    left: 208px;
+    top: 130px;
+  }
+  .card:hover .dot83 {
+    left: 221px;
+    top: 133px;
+  }
+  .card:hover .dot84 {
+    left: 192px;
+    top: 145px;
+  }
+  .card:hover .dot85 {
+    left: 192px;
+    top: 159px;
+  }
+  .card:hover .dot86 {
+    left: 191px;
+    top: 172px;
+  }
+  .card:hover .dot87 {
+    left: 206px;
+    top: 145px;
+  }
+  .card:hover .dot88 {
+    left: 215px;
+    top: 145px;
+  }
+  .card:hover .dot89 {
+    left: 218px;
+    top: 162px;
+  }
+  .card:hover .dot90 {
+    left: 203px;
+    top: 157px;
+  }
+  .card:hover .dot91 {
+    left: 204px;
+    top: 174px;
+  }
+  .card:hover .dot92 {
+    left: 216px;
+    top: 173px;
+  }
+  
+  /* .size-20 {
+    display: grid;
+    place-content: center;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  .size-20::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: inherit;
+    background: black;
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .size-20 .svg {
+    fill: rgba(255, 255, 255, 0);
+    height: 10px;
+    width: 10px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .size-20:hover {
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+            transform: scale(1.5);
+    border: none;
+  }
+  .size-20:hover::before {
+    opacity: 1;
+  }
+  .size-20:hover .svg {
+    fill: white;
+    z-index: 99;
+  } */
+  
+  .text {
+    position: relative;
+    bottom: 15px;
+    left: 0%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+    opacity: 0;
+    -webkit-transition: all 1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    transition: all 1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  }
+  
+  .svg1  {
+    position:relative;
+    top: 115px;
+    left: 120px;
+    rotate: 4deg;         
+}
+
+.svg2 {
+  position: relative;
+  top: -90px;
+    left: 160px;
+   rotate: 4deg;
+}
+
+.vapicon {
+  background: linear-gradient(#e2f5e6, #598047);
+  position: relative;
+  animation: rotate_4001510 7s infinite linear;
+  transform-style: preserve-3d;
+  -webkit-animation: rotate_4001510 7s infinite linear;
+  transform-style: preserve-3d;
+}
+
+
+
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+  }
+}
+
+.cube-loader {
+  position: relative;
+/* u can choose any size */
+  width: 75px;
+  height: 75px;
+  
+  transform-style: preserve-3d;
+  transform: rotateX(-30deg);
+  animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotateX(-30deg) rotateY(0);
+    
+  }
+
+  100% {
+    transform: rotateX(-30deg) rotateY(360deg);
+  }
+}
+
+.cube-loader .cube-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* top: 0;
+  left: 0; */
+  transform-style: preserve-3d;
+}
+
+.cube-loader .cube-wrapper .cube-span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*top: 0;
+  left: 0;
+  *//*width75px/2=37.5px*/transform: rotateY(calc(90deg * var(--i))) translateZ(7px);
+  background: linear-gradient(    to bottom,    hsl(330, 3.13%, 25.1%) 0%,    hsl(177.27, 21.71%, 32.06%) 5.5%,    hsl(176.67, 34.1%, 36.88%) 12.1%,    hsl(176.61, 42.28%, 40.7%) 19.6%,    hsl(176.63, 48.32%, 43.88%) 27.9%,    hsl(176.66, 53.07%, 46.58%) 36.6%,    hsl(176.7, 56.94%, 48.91%) 45.6%,    hsl(176.74, 62.39%, 50.91%) 54.6%,    hsl(176.77, 69.86%, 52.62%) 63.4%,    hsl(176.8, 76.78%, 54.08%) 71.7%,    hsl(176.83, 83.02%, 55.29%) 79.4%,    hsl(176.85, 88.44%, 56.28%) 86.2%,    hsl(176.86, 92.9%, 57.04%) 91.9%,    hsl(176.88, 96.24%, 57.59%) 96.3%,    hsl(176.88, 98.34%, 57.93%) 99%,    hsl(176.89, 99.07%, 58.04%) 100%  );
+  
+}
+
+.cube-top {
+  position: absolute;
+  width: 75px;
+  height: 15px;
+  margin-top: 30px;
+  background: hsl(147, 82%, 13%) 0%;
+                      /* width 75px / 2 = 37.5px */
+  transform: rotateX(90deg) translateZ(37.5px);
+  transform-style: preserve-3d;
+}
+
+.cube-top::before {
+  content: '';
+  position: absolute;
+/* u can choose any size */
+  width: 75px;
+  height: 15px;
+  background: hsl(176.61, 42.28%, 40.7%) 19.6%;
+  transform: translateZ(-90px);
+  filter: blur(10px);
+  box-shadow: 0 0 10px #323232,
+              0 0 20px hsl(176.61, 42.28%, 40.7%) 19.6%,
+              0 0 30px #323232,
+              0 0 40px hsl(176.61, 42.28%, 40.7%) 19.6%;
+}
+
+.cube-wrapper .left {
+  position: absolute;
+  width: 15px !important;
+  left: 60px !important;
+  transform: rotateX(90deg) translateZ(7.5px);
+  transform-style: preserve-3d;
+  
+}
+
+.cube-wrapper .right {
+  position: absolute;
+  width: 15px !important;
+  right: 60px !important;
+  transform: rotateX(90deg) translateZ(7.5px);
+  transform-style: preserve-3d;
+  
+}
+
+.mySwiper {
+ position: relative;
+ width: 300px;
+ height: 350px;
+ /* border-radius: 20px !important; */
+ 
+}
+
+.mySwiper {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #f1e9e9;
+  margin: 40px;
+  padding: 10px;
+  margin-top: 75px;
+  border-radius: 20px;
+  
+}
+
+.swiper-container {
+  width: 300px;
+  height: 350px;
+  
+}
+
+swiper-slide {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  background-image: linear-gradient(230deg, rgba(93, 93, 93, 0.03) 0%, rgba(93, 93, 93, 0.03) 50%, rgba(78, 78, 78, 0.03) 50%, rgba(78, 78, 78, 0.03) 100%), linear-gradient(107deg, rgba(55, 55, 55, 0.01) 0%, rgba(55, 55, 55, 0.01) 50%, rgba(170, 170, 170, 0.01) 50%, rgba(170, 170, 170, 0.01) 100%), linear-gradient(278deg, rgba(16, 16, 16, 0.03) 0%, rgba(16, 16, 16, 0.03) 50%, rgba(24, 24, 24, 0.03) 50%, rgba(24, 24, 24, 0.03) 100%), linear-gradient(205deg, rgba(116, 116, 116, 0.03) 0%, rgba(116, 116, 116, 0.03) 50%, rgba(0, 0, 0, 0.03) 50%, rgba(0, 0, 0, 0.03) 100%), linear-gradient(150deg, rgba(5, 5, 5, 0.03) 0%, rgba(5, 5, 5, 0.03) 50%, rgba(80, 80, 80, 0.03) 50%, rgba(80, 80, 80, 0.03) 100%), linear-gradient(198deg, rgba(231, 231, 231, 0.03) 0%, rgba(231, 231, 231, 0.03) 50%, rgba(26, 26, 26, 0.03) 50%, rgba(26, 26, 26, 0.03) 100%), linear-gradient(278deg, rgba(89, 89, 89, 0.03) 0%, rgba(89, 89, 89, 0.03) 50%, rgba(26, 26, 26, 0.03) 50%, rgba(26, 26, 26, 0.03) 100%), linear-gradient(217deg, rgba(28, 28, 28, 0.03) 0%, rgba(28, 28, 28, 0.03) 50%, rgba(202, 202, 202, 0.03) 50%, rgba(202, 202, 202, 0.03) 100%), linear-gradient(129deg, rgba(23, 23, 23, 0.03) 0%, rgba(23, 23, 23, 0.03) 50%, rgba(244, 244, 244, 0.03) 50%, rgba(244, 244, 244, 0.03) 100%), linear-gradient(135deg, rgb(1, 132, 255), rgb(198, 5, 91));
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  place-content: center;
+  border-radius: 10px;
+  
+}
+
+/* .swiper-slide img {
+  
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  
+} */
+
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+  
+.unsplash {
+  width: 370px;
+  height: 350px;
+  margin-top: 10px;
+}
+
+.st {
+  margin-left: 100px;
+}
+
+
