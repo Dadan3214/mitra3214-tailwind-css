@@ -7,10 +7,7 @@ module.exports = {
       padding: '16px',
     },
     extend: {
-      backgroundImage: {
-        
-        'footer-ST2023': "url('ST2023.png')",
-      },
+      
       colors: {
         primary: '#14b8a6',
         dark: '#0f172a'
